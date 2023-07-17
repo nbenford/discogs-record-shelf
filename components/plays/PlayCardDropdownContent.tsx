@@ -9,10 +9,10 @@ import { Accordion, Text, Table, ScrollArea, Rating } from '@mantine/core';
 import { poppins } from '../common/fonts';
 
 //HOOK
-import useGetAlbumInfo from '../../hooks/getAlbumInfo';
+import useGetAlbumInfo from '../../hooks/useGetAlbumInfo';
 
 //INTERFACE
-import { AlbumInfoPropsInterface } from '../../hooks/getAlbumInfo';
+import { AlbumInfoPropsInterface } from '../../hooks/useGetAlbumInfo';
 
 const PlayDropdownContent = ({
   id,
