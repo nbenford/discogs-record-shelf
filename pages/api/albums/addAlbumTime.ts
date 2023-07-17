@@ -56,11 +56,7 @@ export default async function handler(
       minutesPlayed: albumData.runtime,
     };
 
-    console.log(newAlbumObj);
-
     const newAlbum = await Album.create(newAlbumObj);
-
-    console.log(newAlbum);
 
     if (newAlbum) {
       res.send(newAlbum);
