@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+#Host: https://southdaytondems.org
+
+# Sitemaps
+#Sitemap: https://southdaytondems.org/sitemap.xml

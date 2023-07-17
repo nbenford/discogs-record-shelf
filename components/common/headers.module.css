@@ -1,0 +1,231 @@
+.frontPageHeaderText {
+  width: 100%;
+  padding-left: 3rem;
+}
+@media screen and (max-width: 1250px) {
+  .frontPageHeaderText {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frontPageHeaderText {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .frontPageHeaderText {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frontPageHeaderText {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .frontPageHeaderText {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
+.recordShelfText {
+  color: hsl(351, 74%, 45%);
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1;
+  font-family: inherit;
+  white-space: nowrap;
+}
+@media screen and (max-width: 575px) {
+  .recordShelfText {
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 450px) {
+  .recordShelfText {
+    font-size: 3rem;
+  }
+}
+.recordShelfTextLinebreak {
+  color: hsl(351, 74%, 45%);
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1;
+  font-family: inherit;
+  white-space: nowrap;
+  line-break: anywhere;
+}
+@media screen and (max-width: 575px) {
+  .recordShelfTextLinebreak {
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 450px) {
+  .recordShelfTextLinebreak {
+    font-size: 3rem;
+  }
+}
+.recordShelfTextSmall {
+  color: hsl(351, 74%, 45%);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
+  font-family: inherit;
+}
+@media screen and (max-width: 450px) {
+  .recordShelfTextSmall {
+    font-size: 2rem;
+  }
+}
+.discogsHeaderText {
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1.2;
+  font-family: inherit;
+}
+@media screen and (max-width: 450px) {
+  .discogsHeaderText {
+    font-size: 4rem;
+  }
+}
+.subheaderText {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+@media screen and (max-width: 450px) {
+  .subheaderText {
+    font-size: 1rem;
+  }
+}
+.descriptionText {
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 450px) {
+  .descriptionText {
+    font-size: 1rem;
+  }
+}
+.homePagePaper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: transparent;
+  align-items: flex-start;
+  width: 70vw;
+}
+@media screen and (max-width: 1250px) {
+  .homePagePaper {
+    width: 80vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .homePagePaper {
+    width: 90vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .homePagePaper {
+    width: 100vw;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
+.profilePaper {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: transparent;
+  align-items: flex-start;
+  width: 50vw;
+}
+@media screen and (max-width: 1250px) {
+  .profilePaper {
+    width: 80vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .profilePaper {
+    width: 90vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .profilePaper {
+    width: 100vw;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
+.cartridgePaper {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: flex-start;
+  background-color: hsl(251, 38%, 6%);
+  width: 60vw;
+}
+@media screen and (max-width: 1250px) {
+  .cartridgePaper {
+    width: 80vw;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cartridgePaper {
+    width: 90vw;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .cartridgePaper {
+    width: 100vw;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
+.frontPageContainer {
+  background-color: hsl(251, 38%, 6%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+}
+@media screen and (max-width: 1250px) {
+  .frontPageContainer {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frontPageContainer {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .frontPageContainer {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+}

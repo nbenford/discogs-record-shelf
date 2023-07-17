@@ -1,0 +1,22 @@
+{
+  "theme_color": "#C81E37",
+  "background_color": "#C81E37",
+  "scope": ".",
+  "start_url": "./",
+  "display": "standalone",
+  "name": "Discogs Record Shelf",
+  "short_name": "Discogs Record Shelf",
+  "description": "Discogs Record Shelf",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

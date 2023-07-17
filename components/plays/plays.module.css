@@ -1,0 +1,10 @@
+.playCard {
+  width: 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.playAlbumData {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: 1px solid #373a40;
+}

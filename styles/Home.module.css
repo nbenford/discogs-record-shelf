@@ -1,0 +1,133 @@
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
+.recordIcon {
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  justify-content: flex-start;
+}
+.recordIcon > div {
+  width: 20vw;
+  align-items: center;
+}
+@media screen and (max-width: 1250px) {
+  .recordIcon > div {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .recordIcon > div {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .recordIcon > div {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 575px) {
+  .recordIcon > div {
+    width: 60vw;
+  }
+}
+.homePagePaper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: transparent;
+  align-items: flex-start;
+  width: 70%;
+}
+@media screen and (max-width: 1250px) {
+  .homePagePaper {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .homePagePaper {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .homePagePaper {
+    width: 100%;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+}
+.frontPageContainer {
+  background-color: hsl(251, 38%, 6%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+}
+@media screen and (max-width: 1250px) {
+  .frontPageContainer {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frontPageContainer {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .frontPageContainer {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+}
+.frontPageHeaderText {
+  width: 100%;
+  padding-left: 3rem;
+}
+@media screen and (max-width: 1250px) {
+  .frontPageHeaderText {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frontPageHeaderText {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .frontPageHeaderText {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frontPageHeaderText {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .frontPageHeaderText {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}

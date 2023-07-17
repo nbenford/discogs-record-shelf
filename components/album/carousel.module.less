@@ -1,0 +1,71 @@
+.swiper {
+  padding-top: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.swiperSlide {
+  // max-height: 75dvh;
+  // max-width: 75dvh;
+  aspect-ratio: 1;
+  > div {
+    aspect-ratio: 1;
+
+    width: 100%;
+    height: 100%;
+  }
+  @media (max-width: 850px) {
+    padding: 0.8rem;
+  }
+}
+
+.swiperBody {
+  background-color: hsla(251, 38%, 6%, 1);
+  overflow-y: clip;
+  height: 100%;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  --swiper-navigation-size: 104px;
+  --swiper-navigation-top-offset: 90%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: hsla(353.66, 0.79, 0.4, 0.6);
+  @media screen and (max-width: 630px) {
+    --swiper-navigation-size: 64px;
+    --swiper-navigation-top-offset: 90%;
+  }
+}
+
+.recordImageTextBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: hsla(251, 38%, 6%, 0.8);
+  width: 500px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.recordText {
+  text-align: center;
+  padding: 7px;
+  margin: 0;
+  h3 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 0;
+    color: #a4ffff;
+  }
+  h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0;
+    color: #5ea1ee;
+  }
+}
