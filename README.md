@@ -2,6 +2,13 @@
 
 Demo: [https://bit.ly/discogsRecordShelf](https://bit.ly/discogsRecordShelf)
 
+<b>Demo Discogs Login:</b>
+<br/>
+Username: ```discogsRecordShelf```
+<br/>
+Password: ```p$8Y2Mdq22Tm```
+<br/>
+<br/>
 [![Discogs Record Shelf](https://img.youtube.com/vi/XywGNqHNGgM/0.jpg)](https://www.youtube.com/watch?v=XywGNqHNGgM)
 
 Video: [YouTube](https://youtu.be/XywGNqHNGgM)
