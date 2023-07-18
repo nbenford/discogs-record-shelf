@@ -2,6 +2,7 @@
 
 [https://bit.ly/discogsRecordShelf](https://bit.ly/discogsRecordShelf)
 
+Video: [YouTube](https://youtu.be/XywGNqHNGgM)
 
 [Discogs Record Shelf](https://discogs-record-shelf-e0e54663a588.herokuapp.com/) keeps track of vinyl stylus wear using your Discogs account
 
