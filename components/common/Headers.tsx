@@ -10,18 +10,28 @@ interface HeadersInterface {
 export const HeaderTextWhite = ({ children }: HeadersInterface): ReactNode => {
   return (
     <>
-      <Text span className={styles.discogsHeaderText} style={poppins.style}>
+      <Title
+        order={1}
+        className={styles.discogsHeaderText}
+        style={poppins.style}
+        data-testid="title"
+      >
         {children}
-      </Text>
+      </Title>
     </>
   );
 };
 export const HeaderTextRed = ({ children }: HeadersInterface): ReactNode => {
   return (
     <>
-      <Text className={styles.recordShelfText} style={poppins.style}>
+      <Title
+        order={2}
+        className={styles.recordShelfText}
+        style={poppins.style}
+        data-testid="subtitle"
+      >
         {children}
-      </Text>
+      </Title>
     </>
   );
 };
@@ -29,9 +39,14 @@ export const HeaderTextRedLinebreak = ({
   children,
 }: HeadersInterface): ReactNode => {
   return (
-    <Text className={styles.recordShelfTextLinebreak} style={poppins.style}>
+    <Title
+      order={2}
+      className={styles.recordShelfTextLinebreak}
+      style={poppins.style}
+      data-testid="subtitle"
+    >
       {children}
-    </Text>
+    </Title>
   );
 };
 
@@ -39,9 +54,14 @@ export const HeaderTextRedSmall = ({
   children,
 }: HeadersInterface): ReactNode => {
   return (
-    <Text className={styles.recordShelfTextSmall} style={poppins.style}>
+    <Title
+      order={2}
+      className={styles.recordShelfTextSmall}
+      style={poppins.style}
+      data-testid="subtitle"
+    >
       {children}
-    </Text>
+    </Title>
   );
 };
 
@@ -49,10 +69,11 @@ export const SubheaderText = ({ children }: HeadersInterface): ReactNode => {
   return (
     <>
       <Title
-        order={2}
+        order={3}
         color="green.5"
         className={styles.subheaderText}
         style={poppins.style}
+        data-testid="subtext"
       >
         {children}
       </Title>

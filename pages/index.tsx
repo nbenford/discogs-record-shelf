@@ -16,8 +16,6 @@ import {
   BodyText,
 } from '../components/common/Headers';
 
-// import CookieConsent from 'react-cookie-consent';
-
 //STYLES
 import styles from '../styles/Home.module.css';
 
@@ -38,6 +36,7 @@ export default function Home() {
       <SEO
         pageDescription="View your Discogs vinyl collection visually and track turntable cartridge/stylus usage/hours/wear"
         pageTitle="Discogs Record Shelf"
+        data-testid="SEO"
       />
       <div className={styles.frontPageContainer}>
         <Paper
@@ -96,10 +95,6 @@ export default function Home() {
           </div>
           <div style={{ margin: '20px' }} />
         </Paper>
-        {/* <CookieConsent>
-          This website uses cookies to enhance the user experience. We do not
-          save or use personal information.
-        </CookieConsent> */}
       </div>
     </>
   );

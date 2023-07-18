@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders HomePage unchanged renders a homepage 1`] = `
+<div>
+  <div
+    class="frontPageContainer"
+  >
+    <div
+      class="mantine-Paper-root homePagePaper mantine-pea73f"
+      style="background-color: transparent;"
+    >
+      <div
+        class="recordIcon"
+      >
+        <div>
+          <svg
+            class="tabler-icon tabler-icon-vinyl"
+            fill="none"
+            height="100%"
+            stroke="hsla(351, 74%, 45%, 1)"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 3.937a9 9 0 1 0 5 8.063"
+            />
+            <path
+              d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"
+            />
+            <path
+              d="M20 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"
+            />
+            <path
+              d="M20 4l-3.5 10l-2.5 2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="frontPageHeaderText"
+      >
+        <h1
+          class="mantine-Text-root mantine-Title-root discogsHeaderText mantine-dicgnb"
+          data-testid="title"
+          style="font-family: fontFamily;"
+        >
+          Discogs 
+        </h1>
+        <h2
+          class="mantine-Text-root mantine-Title-root recordShelfText mantine-pjlnte"
+          data-testid="subtitle"
+          style="font-family: fontFamily;"
+        >
+          Record Shelf
+        </h2>
+        <div
+          style="margin-top: 10px;"
+        />
+        <h3
+          class="mantine-Text-root mantine-Title-root subheaderText mantine-1kxdypt"
+          data-testid="subtext"
+          style="font-family: fontFamily;"
+        >
+          Visually browse your collection and track turntable stylus wear.
+        </h3>
+        <div
+          style="margin-top: 3rem;"
+        />
+        <div
+          class="mantine-Text-root descriptionText mantine-5h1feg"
+          style="font-family: fontFamily;"
+        >
+          Connect your
+           
+          <a
+            href="https://discogs.com"
+            style="color: lightgray; font-weight: 600;"
+            target="_blank"
+          >
+            Discogs
+          </a>
+           
+          account and browse your vinyl collection easily by flipping through your records virtually. To track stylus wear, register a cartridge and select a record to play.
+           
+          <span
+            style="font-weight: 600;"
+          >
+            Discogs
+             
+          </span>
+          <span
+            style="color: rgb(242, 41, 62); font-weight: 600;"
+          >
+            Record Shelf
+          </span>
+           
+          will add the total play time to your stylus's total time.
+        </div>
+      </div>
+      <div
+        style="margin-top: 50px;"
+      />
+      <div
+        class="frontPageHeaderText"
+      >
+        <button
+          class="mantine-UnstyledButton-root mantine-Button-root mantine-14bueep"
+          data-button="true"
+          type="button"
+        >
+          <div
+            class="mantine-1wpc1xj mantine-Button-inner"
+          >
+            <span
+              class="mantine-1ryt1ht mantine-Button-label"
+            >
+              Log In Through Discogs
+            </span>
+          </div>
+        </button>
+      </div>
+      <div
+        style="margin: 20px;"
+      />
+    </div>
+  </div>
+</div>
+`;
