@@ -1,11 +1,13 @@
 # discogs-record-shelf
 
-[https://bit.ly/discogsRecordShelf](https://bit.ly/discogsRecordShelf)
+Demo: [https://bit.ly/discogsRecordShelf](https://bit.ly/discogsRecordShelf)
+
+[![Discogs Record Shelf](https://img.youtube.com/vi/XywGNqHNGgM/0.jpg)](https://www.youtube.com/watch?v=XywGNqHNGgM)
 
 Video: [YouTube](https://youtu.be/XywGNqHNGgM)
-
-[Discogs Record Shelf](https://discogs-record-shelf-e0e54663a588.herokuapp.com/) keeps track of vinyl stylus wear using your Discogs account
-
+<br/>
+## [Discogs Record Shelf](https://discogs-record-shelf-e0e54663a588.herokuapp.com/) keeps track of vinyl stylus wear using your Discogs account
+<br/>
 Audiophiles demand uncompromising sound. One of the most important factors in ensuring optimal vinyl record playback is ensuring that the turntable's cartridge and stylus is in good shape. Styli have a finite lifespan. Over the many hours of play, the stylus wears down and sound reproduction suffers. Damage to the vinyl records can occur if the stylus is allowed to wear down too much.
 
 But how does the music lover track how many hours are left on their stylus? <b>Discogs Record Shelf</b> offers a solution.
