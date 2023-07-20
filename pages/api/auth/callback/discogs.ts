@@ -8,7 +8,7 @@ var CryptoJS = require('crypto-js');
 //a Discogs access token. The accessData object is encrypted and stored
 //as a cookie. The returned verifier and token are stored unencrypted as cookies.
 //We then redirect to the user home page (/home)
-export default async function handler(
+export default async function discogsCallback(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

@@ -1,12 +1,11 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { getCookie } from 'cookies-next';
-var Discogs = require('disconnect').Client;
 var CryptoJS = require('crypto-js');
 
 //MODELS
 import { Album } from '../../../db/models';
 
-export default async function handler(
+export default async function deleteAlbum(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

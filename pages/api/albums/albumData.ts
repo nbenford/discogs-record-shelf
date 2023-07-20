@@ -6,7 +6,7 @@ import { Album, User, Cartridge } from '../../../db/models';
 
 //Function grabs our user's data
 //It needs the accessData object, which is stored encrypted as a cookie
-export default async function handler(
+export default async function albumData(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

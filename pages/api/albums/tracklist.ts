@@ -6,7 +6,7 @@ import { openai } from '../../../libs/openai';
 
 //Function grabs our user's data
 //It needs the accessData object, which is stored encrypted as a cookie
-export default async function handler(
+export default async function tracklist(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

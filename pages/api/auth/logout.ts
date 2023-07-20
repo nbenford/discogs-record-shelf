@@ -3,7 +3,7 @@ import { getCookies, setCookie } from 'cookies-next';
 import Router from 'next/router';
 
 //Removes cookies
-export default async function handler(
+export default async function logout(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

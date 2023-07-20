@@ -3,7 +3,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { setCookie } from 'cookies-next';
 var CryptoJS = require('crypto-js');
 
-export default async function handler(
+export default async function authorize(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

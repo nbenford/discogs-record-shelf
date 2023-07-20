@@ -5,7 +5,7 @@ var CryptoJS = require('crypto-js');
 //MODELS
 import { Cartridge } from '../../../db/models';
 
-export default async function handler(
+export default async function addCartTime(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

@@ -18,7 +18,7 @@ interface CollectionInterface {
 
 //Function grabs our user's data
 //It needs the accessData object, which is stored encrypted as a cookie
-export default async function handler(
+export default async function catalog(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
@@ -60,6 +60,7 @@ export default async function handler(
 
     //Return the user's collection page
     var dis = await new Discogs(accessData);
+
     const userCollection: CollectionInterface = await dis
       .user()
       .collection()
